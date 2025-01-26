@@ -71,7 +71,7 @@ void setenforce(bool enforce)
 #endif
 }
 
-bool getenforce()
+bool ksu_getenforce()
 {
 #ifdef CONFIG_SECURITY_SELINUX_DISABLE
 #ifdef KSU_COMPAT_USE_SELINUX_STATE
